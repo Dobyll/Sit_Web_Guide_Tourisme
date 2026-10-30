@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>
+    Vérification des contraintes de style
+  </title>
+  <link rel="stylesheet" type="text/css" title="style" media="screen" href="styleconformance.css"/>
+  <script src="../Code/Javascript/other.js"> </script>
+</head>
+<body>
+<button id="returnButton">Retour à la page d'accueil</button>
+
+<h1> Vérification des contraintes de style </h1>
+
+<table>
+  <thead>
+  <tr>
+    <th> Contrainte </th>
+    <th> Fichiers de style</th>
+    <th> Lignes </th>
+    <th> Sélecteurs </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td> Sélecteurs d'éléments </td>
+    <td> style.css </td>
+    <td> 10, 17, 28, 206, 220, 234, 261, 328 </td>
+    <td> h1, h2, h3, h4, h5, p, ul, img, body, strong, button </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via id et class </td>
+    <td> style.css </td>
+    <td> 9, 38, 45, 52, 64, 79, 90, 103, 116, 123, 133, 141, 148, 160, 170, 179, 186, 195, 210, 312 </td>
+    <td> .accessible-mode, #accessibilityToggle, #datetime, .container, .header, .footer, .main, .btn, .nav, #infopays, #geographie, #tourisme, .informations, .localisation, .histoire, .activites, .prevention, .activite, .lieu, .lieux-touristiques </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs d’enfants directs </td>
+    <td> style.css </td>
+    <td> 183 </td>
+    <td> .histoire h5 > strong </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs de descendants </td>
+    <td> style.css </td>
+    <td> 38, 45, 103, 183, 187 </td>
+    <td> .accessible-mode h1, .accessible-mode p, .accessible-mode nav ul, .histoire h5 > strong, .histoire h5 + p </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs d’éléments adjacents </td>
+    <td> style.css </td>
+    <td> 187 </td>
+    <td> .histoire h5 + p </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via des pseudo-classes </td>
+    <td> style.css </td>
+    <td> 49, 60, 111, 120, 127, 217, 277 </td>
+    <td> a:hover, button:hover, input:focus, button:disabled, a:focus, #datetime:hover </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via des pseudo-éléments </td>
+    <td> style.css </td>
+    <td> 172, 177 </td>
+    <td> p::first-letter, p::before </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via des attributs autres qu’id et class </td>
+    <td> style.css </td>
+    <td> 26 </td>
+    <td> div[data-type] h3 </td>
+  </tr>
+  <tr>
+    <td> Combinaison de sélecteurs </td>
+    <td> style.css </td>
+    <td> 38, 120, 127 </td>
+    <td> .accessible-mode h1, h2, h3 | a:focus, button:focus, input:focus </td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

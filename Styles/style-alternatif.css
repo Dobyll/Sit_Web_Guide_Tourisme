@@ -1,0 +1,153 @@
+/*fait par Nadia Mouacha*/
+
+/* Import du fichier CSS commun */
+@import url('style-commun.css');
+
+/* Styles spécifiques au mode alternatif */
+
+
+/* Mode accessible - ajustements subtils */
+.accessible-mode {
+    background-color: red;
+    color: blue;
+}
+
+.accessible-mode h1, .accessible-mode h2, .accessible-mode h3 {
+    font-size: 1.5em;
+    color : red ;/* Augmenter légèrement la taille des titres */
+}
+
+.accessible-mode p {
+    font-size: 1.3em; /* Augmenter légèrement la taille des paragraphes */
+}
+
+.accessible-mode a {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+.accessible-mode a:hover {
+    color: #ff6600;
+}
+
+/* Améliorer la visibilité du focus */
+a:focus, button:focus, input:focus {
+    outline: 3px solid #ff6600; /* Bordure orange vif pour attirer l'attention */
+    background-color: #ffcc00; /* Fond jaune pour rendre l'élément sélectionné plus visible */
+}
+
+/* Ajouter un bouton pour activer le mode accessible */
+#accessibilityToggle {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#accessibilityToggle:hover {
+    background-color: #005fa3;
+}
+
+/* Styles pour les images */
+.accessible-mode img {
+    border: 2px solid #0077cc;
+    margin: 10px 0;
+}
+
+/* Styles pour les listes */
+.accessible-mode ul, .accessible-mode ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.accessible-mode li {
+    margin-bottom: 5px;
+}
+
+/* Styles pour les boutons */
+.accessible-mode button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.accessible-mode button:hover {
+    background-color: #005fa3;
+}
+
+/* Styles pour les formulaires */
+.accessible-mode form {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #0077cc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.accessible-mode label {
+    font-size: 1.2em;
+    color: #222;
+}
+
+.accessible-mode input, .accessible-mode select, .accessible-mode textarea {
+    padding: 10px;
+    border: 1px solid #0077cc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.accessible-mode input:focus, .accessible-mode select:focus, .accessible-mode textarea:focus {
+    outline: 3px solid #ff6600;
+    background-color: #ffcc00;
+}
+
+/* Styles pour les liens de navigation */
+.accessible-mode nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.accessible-mode nav li {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.accessible-mode nav a {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+.accessible-mode nav a:hover {
+    color: #ff6600;
+}
+
+/* Styles pour les éléments de mise en page */
+.accessible-mode .container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.accessible-mode .header, .accessible-mode .footer {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.accessible-mode .main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,279 @@
+/*fait par Nadia Mouacha */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    padding: 20px;
+}
+
+/* Style pour les titres */
+h1, h2, h3, h4, h5 {
+    margin: 30px 0 15px;
+    text-align: center;
+}
+
+h1 {
+    color : white;
+    font-size: 5rem;
+    box-shadow : 0 0 20px white ;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color :  #0056b3;
+    font-size: 3rem;
+    background-color: #f0f8ff;
+    border: 3px solid #0056b3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    color : #2a589d;
+    font-size: 2.5rem;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.8rem;
+    color: crimson;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+/* Style pour les images */
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+
+strong {
+    font-weight: bold;
+    color : black ;
+}
+
+/* Style pour les listes */
+ul {
+    list-style : none;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+
+#infopays {
+    background: white;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 10px black;
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+#geographie p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    float: left;
+    color: black;
+    padding-right: 5px;
+    font-family: 'Georgia', serif;
+}
+
+#tourisme p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    float: left;
+    color: black;
+    padding-right: 5px;
+    font-family: 'Georgia', serif;
+}
+
+
+/* Style pour les sections d'information */
+.informations, .localisation, .histoire, .activites {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffffee;
+    border-left: 10px solid #0077cc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.histoire h5 > strong {
+    color : red;
+    text-decoration: underline;
+    font-size : 1.5rem;
+}
+
+.histoire h5 + p {
+    text-align: center;
+}
+
+/* Style pour les préventions */
+.prevention {
+    background: linear-gradient(to right, #fffde7, #fff8e1);
+    border-left: 6px solid #ffcc00;
+    padding: 15px;
+    margin-top: 20px;
+    font-style: italic;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.prevention h4 {
+    text-align : center;
+    color : black ;
+    border : none ;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.prevention p::before {
+    content: "⚠️";
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* Style pour les activités */
+.activite {
+    background: #f8f8f8;
+    border-left : 5px solid #8B4513;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Style pour les lieux touristiques */
+.lieux-touristiques {
+    margin-top: 30px;
+}
+
+/* on ajoute une ligne a chaque lieu présenter*/
+.lieu {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+}
+
+/* au tout dernier lieu du site on n'ajoute plus la ligne*/
+.lieu:last-child {
+    border-bottom: none;
+}
+
+/* Style pour les boutons */
+button {
+    background-color: #0077cc; /* Couleur de fond bleu */
+    color: white; /* Texte en blanc */
+    font-size: 1.2rem; /* Taille du texte */
+    padding: 12px 20px; /* Espacement interne */
+    border: none; /* Supprime la bordure */
+    border-radius: 8px; /* Bordures arrondies */
+    cursor: pointer; /* Curseur pointer pour indiquer qu'il est cliquable */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition pour un effet au survol */
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #005fa3; /* Changement de couleur au survol */
+    transform: scale(1.05); /* Agrandissement léger au survol */
+}
+
+/* Effet au clic du bouton */
+button:active {
+    transform: scale(0.98); /* Réduction au clic */
+}
+
+/* Style pour les boutons désactivés */
+button:disabled {
+    background-color: #ccc; /* Couleur de fond grise */
+    color: #666; /* Couleur du texte grise */
+    cursor: not-allowed; /* Curseur interdisant l'action */
+    transform: none; /* Pas d'effet au survol ou clic */
+}
+
+/* les liens qui amène a un fichiers suivant précédant*/
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+/* Conteneur pour aligner les boutons à droite */
+.nav {
+    display: flex;
+    justify-content: flex-end; /* Aligne les boutons à droite */
+    gap: 10px; /* Espace entre les boutons */
+}
+
+/* Style spécifique pour l'heure et la date sur les autres pages */
+#datetime {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2rem;  /* Taille plus grande */
+    color: #333; /* Texte gris foncé */
+    background-color: rgba(255, 255, 255, 0.7); /* Fond avec transparence légère */
+    padding: 10px 20px;
+    border-radius: 15px; /* Coins arrondis */
+    text-align: center; /* Texte centré */
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation au survol spécifique aux autres pages */
+#datetime:hover {
+    transform: scale(1.05);
+}

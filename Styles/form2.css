@@ -1,0 +1,79 @@
+/* fait par Sabino*/
+/* Centrage de toute la page */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 2rem; /* Espace sous le titre */
+}
+
+/* Formulaire */
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Labels et champs */
+label {
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Boutons */
+button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Vert, pour le distinguer */
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Messages d'erreur */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.85em;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}

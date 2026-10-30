@@ -1,0 +1,129 @@
+
+		<!ENTITY % format "(24h|AM|PM)" >
+
+		<!-- structure de l'élément racine touristique -->
+		<!ELEMENT touristique (pays, informationgeneral, lieuxtouristiques)>
+
+		<!-- informations sur le pays -->
+		<!ELEMENT pays (nompays, imagepays+, capitale, langueofficielle, devise, continent)>
+
+		<!ELEMENT nompays (#PCDATA)>
+
+		<!ELEMENT imagepays EMPTY>
+		<!ATTLIST imagepays
+				id ID #IMPLIED
+				title CDATA #REQUIRED
+				src CDATA #REQUIRED
+				alt CDATA #REQUIRED >
+
+		<!ELEMENT capitale (#PCDATA)>
+		<!ELEMENT langueofficielle (#PCDATA)>
+		<!ELEMENT devise (#PCDATA)>
+		<!ELEMENT continent (#PCDATA)>
+
+		<!ELEMENT informationgeneral (descriptiongeographique, culture, tourisme)>
+		<!ELEMENT descriptiongeographique (#PCDATA) >
+		
+		<!ELEMENT culture (demographie, religion, evenements, cuisine, arts)>
+
+		<!ELEMENT demographie (#PCDATA)>
+		<!ATTLIST demographie
+				id ID #REQUIRED>
+
+
+		<!ELEMENT religion (#PCDATA)>
+		<!ATTLIST religion
+				id ID  #REQUIRED>
+
+		<!ELEMENT evenements (#PCDATA)>
+		<!ATTLIST evenements
+		       id ID  #REQUIRED>
+		 
+
+
+		<!ELEMENT cuisine (#PCDATA)>
+		<!ATTLIST cuisine
+				id ID  #REQUIRED>
+
+
+		<!ELEMENT arts (#PCDATA)>
+		<!ATTLIST arts
+				id ID  #REQUIRED>
+
+
+		<!ELEMENT tourisme (#PCDATA)>
+
+		<!-- les lieux touristiques à visiter -->
+		<!ELEMENT lieuxtouristiques (lieutouristique+)>
+
+		<!-- description du lieu -->
+		<!ELEMENT lieutouristique (nom, imagelieu+, localisation, histoire, activites?)>
+		<!ATTLIST lieutouristique
+		        id ID #REQUIRED
+				risque (faible|modere|eleve) #REQUIRED>
+
+		<!ELEMENT nom (#PCDATA)>
+
+		<!ELEMENT imagelieu  EMPTY>
+		<!ATTLIST imagelieu
+		        id ID #IMPLIED
+				title CDATA #REQUIRED
+				src CDATA #REQUIRED
+				alt CDATA #REQUIRED > 
+
+		<!ELEMENT localisation (ville, region, adresse?)>
+		<!ELEMENT ville (#PCDATA)>
+		<!ELEMENT region (#PCDATA)>
+		<!ELEMENT adresse (#PCDATA)>
+
+		<!-- partie historique du lieu -->
+		<!ELEMENT histoire (importanceculturelle, anecdote?)>
+
+		<!ELEMENT importanceculturelle (#PCDATA)>
+		<!ATTLIST importanceculturelle
+				id ID #IMPLIED 
+				niveau (important|mineur) #REQUIRED>
+
+		<!ELEMENT anecdote (#PCDATA)>
+
+		<!-- les activités associées au lieu touristique ou ses alentours -->
+
+		<!ELEMENT activites (activite*)>
+		<!ELEMENT activite (nomactivite, imageactivite+, descriptionactivite, horaires?, duree?, prix*, prevention*)>
+		<!ATTLIST activite
+				id ID #REQUIRED
+				type (culturelle|sportive|historique|ludique|autre) #REQUIRED>
+
+		<!ELEMENT nomactivite (#PCDATA)>
+
+		<!ELEMENT imageactivite EMPTY>
+		<!ATTLIST imageactivite
+				id ID #IMPLIED
+				title CDATA #REQUIRED
+				src CDATA #REQUIRED
+				alt CDATA #REQUIRED >
+
+	    <!-- description de l'activité -->
+		<!ELEMENT descriptionactivite (#PCDATA) >
+
+		<!--les horaires -->
+		<!ELEMENT horaires (ouverture, fermeture)>
+		<!ATTLIST horaires
+				type (normal|weekend|ferie)  #REQUIRED
+				saison (ete|hiver|automne|printemps|all) #REQUIRED >
+
+		<!ELEMENT ouverture (#PCDATA)>
+		<!ATTLIST ouverture
+				type %format; #REQUIRED>
+
+		<!ELEMENT fermeture (#PCDATA)>
+		<!ATTLIST fermeture
+				type %format; #REQUIRED>
+
+		<!ELEMENT duree (#PCDATA)>
+
+		<!ELEMENT prix (#PCDATA)>
+
+		<!ELEMENT prevention (#PCDATA)>
+		<!ATTLIST prevention
+				id ID #REQUIRED  >

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE touristique SYSTEM "site.dtd">
+<touristique>
+    <pays>
+        <nompays>Cameroun</nompays>
+        <imagepays src="../Images/drapeau-cameroun.webp" alt="Drapeau du Cameroun" title="" />
+        <imagepays src="../Images/cameroun_carte.jpg" alt="carte du Cameroun" title=""/>
+        <capitale>Yaoundé</capitale>
+        <langueofficielle>Français, Anglais</langueofficielle>
+        <devise>Franc CFA</devise>
+        <continent>Afrique</continent>
+    </pays>
+    <informationgeneral>
+        <descriptiongeographique>
+            Le Cameroun, situé au cœur de l'Afrique centrale, offre une géographie d'une grande diversité. Bordé par l'océan Atlantique
+            à l'ouest, il partage des frontières avec le Nigeria, le Tchad, la République centrafricaine, le Congo, le Gabon et la Guinée
+            équatoriale. Le pays est marqué par des montagnes volcaniques, comme le Mont Cameroun, des plateaux verdoyants, des forêts
+            tropicales et des savanes sèches au nord. Cette variété de paysages, couplée à un climat tropical et équatorial, fait du
+            Cameroun un véritable carrefour naturel riche en biodiversité.
+        </descriptiongeographique>
+        <culture>
+            <demographie id="demographie">
+                Le Cameroun compte aujourd’hui entre 28 et 30 millions d’habitants. Il se distingue par une très grande diversité ethnique, avec
+                plus de 250 groupes différents répartis sur l’ensemble du territoire. Cette diversité ethnique se reflète aussi dans la langue,
+                puisque, outre les deux langues officielles — le français et l’anglais — on y parle plus de 200 langues locales. Le pidgin english,
+                une langue créole à base d’anglais, est également couramment utilisé dans les régions anglophones. La population camerounaise
+                est très jeune : plus de la moitié a moins de 25 ans, ce qui fait du pays une nation pleine de potentiel humain pour l’avenir.
+            </demographie>
+            <religion id="religions">
+                La religion joue un rôle central dans la société camerounaise. Le christianisme est majoritaire, représentant environ 70 à 75 % de
+                la population. L’Église catholique est très influente, aux côtés de nombreuses Églises protestantes, évangéliques et pentecôtistes.
+                L’islam, quant à lui, regroupe environ 20 % des croyants, principalement dans les régions du Nord, de l’Extrême-Nord et de l’Adamaoua.
+                Les religions traditionnelles africaines restent présentes et souvent pratiquées en parallèle des grandes religions monothéistes.
+                Le syncrétisme religieux est courant, avec des croyances et rituels hérités des ancêtres qui cohabitent avec les cultes chrétiens
+                ou musulmans.
+            </religion>
+            <evenements id="evenements">
+                Le Cameroun célèbre plusieurs événements majeurs tout au long de l’année. La fête de l’unité, le 20 mai, est la principale
+                célébration nationale, marquant l’unification du pays en un État centralisé en 1972. La fête de la jeunesse, le 11 février,
+                est également très suivie, notamment dans les écoles et les universités. Sur le plan culturel, plusieurs festivals traditionnels
+                rythment la vie des communautés : le Ngondo, à Douala, est une grande fête des peuples Sawa avec des cérémonies sur le fleuve
+                Wouri ; le festival Nyem-Nyem à Ngaoundéré célèbre les traditions peules ; et le FESTAC, festival national des arts et de la
+                culture, met en avant la richesse artistique camerounaise. Sur le plan politique, le pays est marqué par une stabilité relative
+                mais aussi par des tensions, en particulier dans les régions anglophones. Le président Paul Biya est au pouvoir depuis 1982, ce
+                qui suscite à la fois soutien et contestation.
+            </evenements>
+            <cuisine id="cuisine">
+                La cuisine camerounaise est aussi variée que sa population. Chaque région a ses spécialités, influencées par les traditions locales,
+                les produits du terroir et les cultures ethniques. Dans le Centre et le Sud, on retrouve des plats comme le ndolé, une sauce à base
+                de feuilles amères (vernonia), souvent cuisinée avec des arachides, du poisson fumé ou des crevettes. Dans l’Ouest, chez les Bamiléké,
+                on aime les mets consistants comme le koki (gâteau de haricots cuits à la vapeur dans des feuilles de bananier), les taros sauce jaune
+                ou le poisson braisé accompagné de bâton de manioc. Au Nord, la cuisine est influencée par la culture peule et musulmane. On y mange
+                souvent du bouillon de viande, du mil (en couscous ou bouillie), ou du foléré (boisson d’hibiscus). Le sauté de viande ou le kilichi
+                (viande séchée épicée) sont aussi très appréciés. Dans les zones côtières, les plats à base de poissons et fruits de mer abondent,
+                notamment le mbongo tchobi, une sauce noire épicée préparée avec du poisson.
+                Les Camerounais aiment manger épicé, et les condiments maison sont rois : piments, ail, gingembre, oignons et épices locales sont
+                omniprésents. En boisson, on retrouve des jus naturels comme le bissap (jus de fleurs d’hibiscus), le gingembre, ou des bières
+                locales comme la Castel, la 33 Export ou la Kadji.
+            </cuisine>
+            <arts id="arts">
+                Le Cameroun est une terre de créativité. La musique y tient une place importante, avec des genres comme le makossa (originaire de
+                Douala), le bikutsi (du Centre), l’assiko, ou encore le bend-skin. Des artistes comme Manu Dibango, Richard Bona, Charlotte Dipanda,
+                ou encore Petit Pays ont marqué la scène musicale nationale et internationale. Dans le domaine du cinéma, le Cameroun se développe
+                avec des réalisateurs comme Jean-Pierre Bekolo ou Bassek Ba Kobhio, tandis que les séries et films produits localement gagnent en
+                popularité sur les plateformes numériques. La littérature camerounaise est également riche, portée par des figures comme Mongo Beti,
+                Calixthe Beyala, ou encore Léonora Miano. Côté arts visuels, des artistes contemporains comme Barthélémy Toguo ou Pascale Marthine
+                Tayou exposent dans les plus grandes galeries du monde. Enfin, la mode camerounaise prend aussi de l’ampleur, avec des stylistes
+                talentueux qui modernisent les tissus traditionnels pour en faire des pièces uniques.
+            </arts>
+        </culture>
+        <tourisme>
+            Le Cameroun, souvent appelé "l'Afrique en miniature", est une destination touristique incontournable grâce à sa diversité géographique,
+            culturelle et ethnique. Entre ses plages bordées par l'océan Atlantique, ses montagnes majestueuses, ses forêts tropicales luxuriantes
+            et ses savanes, le pays offre une multitude de paysages à explorer. Les visiteurs peuvent y découvrir une richesse unique, allant de
+            la faune sauvage dans ses parcs nationaux, comme le parc de Waza, à la vibrante culture locale à travers ses marchés, festivals et
+            traditions ancestrales. Le Cameroun est un lieu où les amoureux de la nature, les passionnés d'aventure et les curieux de cultures
+            diverses trouveront de quoi nourrir leurs rêves d'évasion.
+        </tourisme>
+
+    </informationgeneral>
+
+    <lieuxtouristiques>
+        <lieutouristique id="lt1" risque="faible">
+            <nom>Limbé et le Mont Cameroun</nom>
+            <imagelieu src="../Images/limbe.jpg" alt="Village camerounais" title="https://generationvoyage.fr/endroits-visiter-cameroun/"/>
+            <localisation>
+                <ville>Buea</ville>
+                <region>Sud-Ouest</region>
+                <adresse>Mont Cameroun, Buea</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                    Limbé, montagne volcanique toujours en activité, jouxte les pentes mémorables du mont Cameroun. Malgré son origine volcanique,
+                    la région n’en reste pas moins un creuset fertile de plantes, jardins et cascades d’eau. Quant au mont Cameroun, plus haut sommet
+                    du pays avec ses 4 000 mètres et quelques d’altitude, il se laisse volontiers approcher par les amateurs de randonnée. L’ascension
+                    se déroule entre forêts équatoriales épaisses et immenses prairies subalpines.
+                </importanceculturelle>
+                <anecdote>Le mont est encore un volcan actif avec des éruptions occasionnelles.</anecdote>
+            </histoire>
+            <activites>
+                <activite id="a1" type="sportive">
+                    <nomactivite>Randonnée sur le Mont Cameroun</nomactivite>
+                    <imageactivite title="https://www.mickaelmussard.fr/randonnee/" src="../Images/Randonnée.jpg" alt="Randonnée"/>
+                    <descriptionactivite>
+                        Une randonnée exigeante mais gratifiante à travers la forêt tropicale et les champs de lave. Vous pouvez effectuer la montée et
+                        la redescente en une journée ou bien passer une nuit dans un des chalets jonchés à plus de 2 000 mètres d’altitude. Choc thermique
+                        assuré mais expérience fantastique garantie. Toutefois, l’ascension est globalement musclée : 27 kilomètres aller-retour. Les
+                        novices se contenteront donc de crapahuter au pied de la montagne.
+                    </descriptionactivite>
+                    <horaires type="normal" saison="all">
+                        <ouverture type="AM">06:00</ouverture>
+                        <fermeture type="PM">18:00</fermeture>
+                    </horaires>
+                    <prix>5000 CFA</prix>
+                    <prevention id="p1">
+                        - Suivre les consignes du guide et respecter l'itinéraire pour garantir la sécurité, surtout en altitude.
+                        - Porter des vêtements et chaussures adaptés à la randonnée en montagne (chaussures de randonnée, vêtements respirants et résistants).
+                        - S’hydrater régulièrement et emporter des réserves d'eau pour éviter la déshydratation.
+                        - Prévoir des vêtements chauds et une protection contre la pluie, car le climat peut changer rapidement en altitude.
+                        - Être attentif à son rythme et ne pas hésiter à faire des pauses pour éviter l’épuisement, surtout à haute altitude.
+                    </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+
+        <lieutouristique id="lt2" risque="faible">
+            <nom>Parc National de Waza</nom>
+            <imagelieu src="../Images/waza1.jpg" alt="Parc National de Waza" title=""/>
+            <imagelieu src="../Images/waza2.jpg" alt="Faune de Waza" title=""/>
+            <localisation>
+                <ville>Waza</ville>
+                <region>Extrême-Nord</region>
+                <adresse>Parc National de Waza</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                    Le Parc national de Waza, situé dans la région de l'Extrême-Nord du Cameroun, est l'un des plus célèbres parcs nationaux du pays
+                    et un véritable sanctuaire pour la faune africaine. S'étendant sur environ 1 700 km², il est classé parmi les réserves de biosphère
+                    de l'UNESCO en raison de sa biodiversité exceptionnelle et de son rôle crucial dans la conservation des écosystèmes sahéliens.
+                    Ce parc est particulièrement renommé pour ses vastes savanes et ses plaines arides, qui abritent une faune variée, notamment des
+                    éléphants, des lions, des léopards, des girafes et de nombreuses espèces d'antilopes, telles que le koudou et le gazelle de Mhorr.
+                    Le parc est également un habitat important pour les oiseaux migrateurs, avec plus de 300 espèces recensées, dont le tadorne de Belon
+                    et l'ibis sacré.
+                </importanceculturelle>
+            </histoire>
+            <activites>
+                <activite id="a2" type="ludique">
+                    <nomactivite>Safari</nomactivite>
+                    <imageactivite title="" src="" alt=""/>
+                    <descriptionactivite>
+                        Une excursion en véhicule à travers la savane pour observer la faune sauvage.
+                    </descriptionactivite>
+                    <horaires type="normal" saison="all">
+                        <ouverture type="AM">07:00</ouverture>
+                        <fermeture type="PM">17:00</fermeture>
+                    </horaires>
+                    <prix>10000 CFA</prix>
+                    <prevention id="p2">
+                        - Suivre les consignes du guide : ne jamais s’éloigner seul ni ignorer les règles de sécurité.
+                        - Porter des vêtements neutres : pour ne pas attirer l’attention des animaux.
+                        - Utiliser un répulsif anti-insectes : essentiel contre les moustiques et autres piqûres.
+                        - Ne pas nourrir ni approcher les animaux : cela peut être dangereux pour vous et pour eux.
+                        - Rester silencieux et discret : pour ne pas perturber la faune et maximiser les chances d’observation.
+                    </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+
+        <lieutouristique id="lt3" risque="faible">
+            <nom>Chutes d'Ekom-Nkam</nom>
+            <imagelieu src="../Images/chutes-dekom.jpg" alt="Chutes d'Ekom-Nkam" title=""/>
+            <localisation>
+                <ville>Melong</ville>
+                <region>Littoral</region>
+                <adresse>Chutes d'Ekom-Nkam, Melong</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="mineur">
+                    Les deux chutes d’Ekom tombent sur plus de quatre-vingt mètres. Situées dans le village d’Ekom-Nkam, ce sont les plus remarquables
+                    du pays. Elles portent les noms de Métché et d’Ekom-Nkam. Ces forces de la nature sont chères au cœur des habitants et chargées
+                    de légendes.
+                </importanceculturelle>
+                <anecdote>
+                    L’histoire raconte qu’à la fin des années 1950, les colons jetaient les nationalistes prisonniers dans les eaux
+                    arc-en-ciel de la Métché.
+                    Parait-il aussi que ces cascades déployées dans une végétation luxuriante ont inspiré les paysages du film Tarzan.
+                </anecdote>
+            </histoire>
+            <activites>
+                <activite id="a3" type="culturelle">
+                    <nomactivite>Visite guidée</nomactivite>
+                    <imageactivite title="" src="" alt=""/>
+                    <descriptionactivite>
+                        Une visite encadrée pour découvrir l’histoire et la beauté naturelle des chutes.
+                    </descriptionactivite>
+                    <horaires type="normal" saison="all">
+                        <ouverture type="AM">08:00</ouverture>
+                        <fermeture type="PM">16:00</fermeture>
+                    </horaires>
+                    <prix>3000 CFA</prix>
+                    <prevention id="p3">
+                        - Suivre les consignes du guide pour garantir la sécurité et éviter les risques.
+                        - Porter des vêtements adaptés (chaussures de randonnée et vêtements légers, mais couvrants) pour un confort optimal.
+                        - Appliquer un répulsif anti-insectes et utiliser de la crème solaire pour se protéger des piqûres et du soleil.
+                        - Respecter la faune et la flore en évitant de perturber les animaux et de cueillir des plantes.
+                        - Rester calme et respecter les zones sécurisées pour éviter tout accident près des chutes.
+                    </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+    </lieuxtouristiques>
+</touristique>

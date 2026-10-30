@@ -1,0 +1,113 @@
+/* fait par Nadia Mouacha Ben Sekkou*/
+/*style pour l'ensemble de la page*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.slider-value {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#moyenne {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eafbea;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+/*tableaux*/
+table,tr,td,th{
+    border-collapse: collapse;
+    border : solid 1px black;
+}
+
+table {
+    width : 80%;
+    margin : auto;
+}
+
+thead th{
+    background-color:  white;
+}
+tbody td:last-child{
+    width : 30%
+}
+tbody td[rowspan]{
+    text-align: center;
+}
+
+tbody td:nth-last-child(2) {
+    text-align: center;
+}
+
+tbody td:nth-last-child(2) input{
+    width : 80% ;
+}
+
+.baremep{
+    font-style: italic;
+    font-size : 0.65em;
+}
+
+.titre{
+    font-weight: bold;
+}
+
+.nsi::before{
+    content: "[Pour les étudiants des gps 4 et 5]";
+    font-weight: bold;
+    font-style: italic;
+    color : chocolate;
+    background-color: white;
+}
+
+.bonus::before{
+    content: "[bonus]";
+    font-weight: bold;
+    font-style: italic;
+    color : chocolate;
+    background-color: white;
+}

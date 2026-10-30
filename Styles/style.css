@@ -1,0 +1,40 @@
+/*fait par Nadia Mouacha*/
+/* CSS réaliser par Nadia Mouacha Ben Sekkou*/
+
+/* Import du fichier CSS commun */
+@import url('style-commun.css');
+
+/* Styles spécifiques au mode principal */
+
+/* Style pour les titres */
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    box-shadow: 0 0 20px white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color :  #0056b3;
+    font-size: 3rem;
+    background-color: #f0f8ff;
+    border: 3px solid #0056b3;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    color : #2a589d;
+    font-size: 2.5rem;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: underline;
+}
+
+div[data-type] h3 {
+    text-decoration: none;
+}

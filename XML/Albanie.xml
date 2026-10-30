@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE touristique SYSTEM "site.dtd">
+<touristique>
+    <pays>
+        <nompays>Albanie</nompays>
+        <imagepays src ="../Images/Drapreaualbanie.jpg" alt ="Drapeau de l'Albanie" title=""/>
+        <imagepays src ="../Images/situationgéographiquealbanie.jpg" alt ="situation geographique de l'Albanie" title=""/>
+        <capitale>Tirana</capitale>
+        <langueofficielle>Albanais</langueofficielle>
+        <devise>Lek</devise>
+        <continent>Europe</continent>
+    </pays>
+
+    <informationgeneral>
+        <descriptiongeographique>
+            L'Albanie est située en Europe du Sud-Est, sur la péninsule balkanique.
+            Le pays dispose d'une façade maritime le long de la mer Adriatique et de la mer lonienne, ce qui
+            lui confère de belles plages et un littoral varié. La topographie de L'Albanie est dominée par des
+            montagnes et des collines, notamment dans le nord avec les Alpes albanaises, ainsi que par des vallées
+            et des plaines dans le sud. Le climat varie du méditerranéen le long du littoral à un climat plus
+            continental à l'intérieur des terres. Ses frontières terrestres se trouvent avec le Monténégro, le
+            Kosovo, le Macédonie du Nord et de la Grèce.
+        </descriptiongeographique>
+        <culture>
+            <demographie id ="demographie">L'Albanie compte environ 2,8 millions d'habitants. La grande majorité de la population est ethniquement
+                albanaise (environ 97 %). Il existe cependant de petites minorités, notamment des Grecs, des Valaques (Aroumains),
+                des Roms et des Slavo-Macédoniens. La diaspora albanaise est aussi très importante, notamment en Italie, en Grèce,
+                en Suisse et aux États-Unis.</demographie>
+            <religion id= "religion">L'Albanie est un pays connu pour sa tolérance religieuse. Les principales religions sont :
+                Islam (~58 %), principalement sunnite et bektachi (une branche soufie).
+                Christianisme (~17 %), avec des catholiques (surtout au nord) et des orthodoxes (au sud).
+                Agnosticisme et athéisme (~25 %), en partie hérités de la période communiste où la religion était interdite
+                (l'Albanie a été déclarée "premier État athée du monde" en 1967 sous Enver Hoxha).</religion>
+            <evenements id="evenement">L'Albanie célèbre plusieurs fêtes traditionnelles et modernes :
+                Fête de l’Indépendance (28 novembre) : célébration de l’indépendance de l’Empire ottoman en 1912.
+                Fête du Drapeau (29 novembre) : anniversaire de la libération du pays en 1944.
+                Nevruz (21 mars) : fête du renouveau du printemps, célébrée par la communauté bektachi.
+                Bajram (Eid al-Fitr et Eid al-Adha) : fêtes musulmanes très suivies.
+                Noël et Pâques : fêtés par les communautés chrétiennes.
+                Dita e Verës (14 mars) : "Jour du printemps", une fête païenne albanaise très populaire, surtout à Elbasan.
+                Festivals culturels, comme le Festival folklorique de Gjirokastër, qui met en avant la musique et la danse traditionnelles,
+                ou encore le Kala Festival et le UNUM Festival, dédiés à la musique électronique.</evenements>
+            <cuisine id="C_A">La cuisine albanaise est méditerranéenne avec des influences balkaniques et ottomanes. Elle repose sur des produits
+                frais et locaux comme la viande (agneau, bœuf), le poisson, les légumes et les produits laitiers. Quelques plats typiques :
+                Byrek : feuilleté salé fourré au fromage, épinards ou viande.
+                Tavë Kosi : agneau cuit au four avec du yaourt et des œufs.
+                Fërgesë : plat à base de poivrons, tomates et fromage blanc.
+                Pite : sorte de tarte farcie, proche du byrek.
+                Baklava et trilece : desserts populaires, hérités de la tradition ottomane.
+                Raki : eau-de-vie locale souvent servie en apéritif.</cuisine>
+            <arts id="A_A">
+                Musique : La musique traditionnelle albanaise est divisée en deux styles principaux : le style polyphonique du sud
+                (classé au patrimoine de l’UNESCO) et la musique plus rythmée du nord. L'Albanie a aussi une scène moderne avec des artistes
+                internationaux comme Dua Lipa et Rita Ora (d'origine albanaise).
+                Danse : Les danses traditionnelles albanaises sont dynamiques et varient selon les régions.
+                Littérature : Ismail Kadare est l’écrivain albanais le plus célèbre, connu pour ses romans comme Le Général de l'armée morte.
+                Architecture : On retrouve des influences ottomanes dans les villes historiques comme Berat et Gjirokastër, classées à l’UNESCO. Tirana, la capitale, mélange bâtiments communistes et architecture moderne.
+                Cinéma : L'industrie cinématographique albanaise est en pleine évolution, avec des films projetés dans des festivals internationaux.
+                L’Albanie est donc un pays où traditions et modernité coexistent, avec une forte identité culturelle et une ouverture au monde.</arts>
+
+        </culture>
+        <tourisme>Le tourisme en Albanie est en plein essor grâce à ses sites classés à l'UNESCO, ses paysages naturels préservés et ses prix
+            attractifs.</tourisme>
+    </informationgeneral>
+
+    <lieuxtouristiques>
+        <lieutouristique id="bt" risque="faible">
+            <nom>Parc National de Butrint</nom>
+            <imagelieu id="img_butrint1" src="../Images/butrint1.jpg" alt="Ruines de Butrint" title=""/>
+            <imagelieu id="img_butrint2" src="../Images/butrint2.jpg" alt="Ruines de Butrint" title=""/>
+            <localisation>
+                <ville>Butrint</ville>
+                <region>Sud de l'Albanie</region>
+                <adresse>Ali Pasha Island, Butrint</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                    ButrintButrint est un site archéologique majeur en Albanie et une halte incontournable sur la route de Saranda.
+                    Blotties au cœur d’une végétation luxuriante dans un parc national pittoresque,les ruines de Butrint témoignent
+                    de l'influence grecque et romaine.
+                </importanceculturelle>
+                <anecdote>Selon la légende, les eaux de Butrint possèdent des vertus curatives.</anecdote>
+            </histoire>
+            <activites>
+                <activite id="act1" type="historique">
+                    <nomactivite>Visite guidée du site archéologique de Butrint</nomactivite>
+                    <imageactivite src="../Images/viste-guidéebutrint.webp" alt="visite du site" title="https://emeraudetrip.com/wp-content/uploads/2024/08/que-faire-a-butrint-albanie14.webp"/>
+                    <descriptionactivite>Le site archéologique de Butrint, classé au patrimoine mondial de l'UNESCO, est un témoignage fascinant de
+                        l'histoire antique de l'Albanie. Situé dans un parc naturel, il regroupe des vestiges datant de l'époque grecque et romaine,
+                        dont des théâtres, des temples, des murs fortifiés et des bains. Entouré par une végétation luxuriante, Butrint offre aux
+                        visiteurs l’opportunité de découvrir l’évolution de cette cité antique au fil des siècles tout en profitant d’une ambiance
+                        paisible et immersive.</descriptionactivite>
+                    <horaires type="normal" saison="ete">
+                        <ouverture type="AM">09:00</ouverture>
+                        <fermeture type="PM">17:00</fermeture>
+                    </horaires>
+                    <prix> 1485 leks </prix>
+                </activite>
+            </activites>
+        </lieutouristique>
+        <lieutouristique id="gj1" risque="modere">
+            <nom>Château de Gjirokastër </nom>
+            <imagelieu id="img1_gjirokaster" src="../Images/ville de Gjirokastër.jpg" alt="Vieille ville de Gjirokastër" title=""/>
+            <imagelieu id="img2_gjirokaster" src="../Images/Château de Gjirokastër.jpg" alt="Château de Gjirokastër" title=""/>
+            <localisation>
+                <ville>Gjirokastër</ville>
+                <region>Sud de l'Albanie</region>
+                <adresse>Rruga Gjin Zenebisi, Gjirokastër, Albanie</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                    Le château de Gjirokastër ou citadelle de Gjirokastër (en albanais : Kalaja e Gjirokastrës) est une
+                    forteresse de la ville de Gjirokastër, en Albanie (historiquement connue aussi comme Argyrokastro, un nom qui s'applique
+                    aussi au château)[1]. L'édifice est compris dans le site inscrit Patrimoine Mondial de l'UNESCO[2] de la vieille ville de Gjirokastër.
+                </importanceculturelle>
+                <anecdote>La ville est surnommée "la ville de pierre" en raison de ses maisons traditionnelles en pierre.</anecdote>
+            </histoire>
+            <activites>
+                <activite id="act_a" type="historique">
+                    <nomactivite>Explorer le château de Gjirokastër</nomactivite>
+                    <imageactivite title="https://img.welt.de/img/reise/nah/mobile153443856/2227939737-coriginal-w1024/Albanien-Gjirokastra.jpg"
+                                   src="../Images/Albanien-Gjirokastra.jpg" alt="exploration du chateau"/>
+                    <descriptionactivite>Le château de Gjirokastër est une imposante forteresse médiévale située au sommet de la vieille ville. Ce site
+                        historique, classé au patrimoine mondial de l'UNESCO, offre une vue spectaculaire sur la ville et la vallée environnante. À
+                        l’intérieur, les visiteurs peuvent découvrir des remparts anciens, des tours et des cachots, ainsi qu'un musée militaire
+                        présentant des artefacts relatifs à l’histoire de la région. L’architecture du château, qui mêle influences médiévales et
+                        ottomanes, témoigne de son rôle stratégique au fil des siècles.</descriptionactivite>
+                    <horaires type="normal" saison="all">
+                        <ouverture type="AM">09:00</ouverture>
+                        <fermeture type="PM">19:00</fermeture>
+                    </horaires>
+                    <prix> 200 lek </prix>
+                    <prevention id="p3">
+                        - Suivre les indications du guide ou des panneaux pour ne pas se perdre ou entrer dans des zones interdites.
+                        - Porter des chaussures confortables et antidérapantes, car certaines zones sont en pierre et peuvent être glissantes.
+                        - Ne pas toucher ou détériorer les objets exposés, pour préserver le patrimoine historique.
+                        - Faire attention aux escaliers et hauteurs, notamment avec les enfants, pour éviter les chutes.
+                    </prevention>
+                </activite>
+                <activite id="act_b" type="culturelle">
+                    <nomactivite>Déambuler dans le vieux bazar</nomactivite>
+                    <imageactivite title="https://viajerosocultos.com/wp-content/uploads/2021/09/gjirokaster-3802128_1280-1024x682.jpg"
+                                   src="../Images/Vieux bazar.jpg" alt="Vieux bazar"/>
+                    <descriptionactivite>
+                    Le bazar de Gjirokastër est le cœur historique de la ville, avec ses rues en zigzag et ses bâtiments
+                    ditionnels datant de l’époque ottomane. On y trouve de nombreux petits magasins vendant des produits locaux comme des
+                    tapis, des objets en céramique, du miel et des thés artisanaux. Nous vous recommandons de visiter le bazar en fin de
+                    journée, car il s’anime particulièrement le soir. C’est aussi l’endroit idéal pour goûter à la cuisine albanaise dans
+                    un des nombreux petits restaurants locaux.
+                    </descriptionactivite>
+                </activite>
+                <activite id="act_c" type="historique">
+                    <nomactivite>Visiter le tunnel de la guerre froide</nomactivite>
+                    <imageactivite title="https://c8.alamy.com/compfr/2gh0ak1/le-tunnel-de-la-guerre-froide-construit-dans-l-ere-du-president-communiste-enver-hoxha-sous-la-colline-dans-la-ville-de-gjirokaster-en-albanie-2gh0ak1.jpg"
+                                   src="../Images/tunnel.jpg" alt="Tunnel de le guerre froide"/>
+                    <descriptionactivite>
+                        Gjirokastër abrite un tunnel souterrain datant de la guerre froide, construit sous le régime communiste
+                        d'Enver Hoxha. Ce tunnel de 800 mètres a servi de refuge en cas d’attaque nucléaire. La visite guidée dure environ 20 minutes
+                        et permet de découvrir les différentes chambres et équipements d’époque. C’est une expérience fascinante pour comprendre le
+                        passé communiste de l'Albanie.
+                    </descriptionactivite>
+                    <horaires type="normal" saison="ete">
+                        <ouverture type="AM">09:00</ouverture>
+                        <fermeture type="PM">17:00</fermeture>
+                    </horaires>
+                    <prix> 200 lek </prix>
+                    <prevention id="p1">
+                        - Le tunnel de la guerre froide est un espace confiné et sombre.
+                        - Il est recommandé de porter des vêtements confortables et des chaussures solides.
+                        - Apportez une lampe de poche, bien que des éclairages de secours soient présents sur le site.
+                        - L'activité peut ne pas convenir aux personnes ayant des claustrophobies ou des problèmes de mobilité.
+                        - Respectez les consignes de sécurité données par le guide et ne vous éloignez pas des chemins balisés.
+                    </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+        <lieutouristique id="lt3" risque="faible">
+            <nom>Lac de Bovilla</nom>
+            <imagelieu id="img11" src= "../Images/lac de Bovilla.webp" alt="Vue du Lac de Bovilla" title=""/>
+            <imagelieu id="img12" src= "../Images/lac de bovilla.jpeg" alt="Paysage autour du Lac de Bovilla" title=""/>
+            <localisation>
+                <ville>Tirana</ville>
+                <region>Comté de Tirana</region>
+                <adresse>Parc national du mont Dajti, à environ 20 km au nord-est de Tirana</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="mineur">
+                    Créé entre 1988 et 1996 par la construction d'un barrage de 81 m de hauteur sur la rivière Tërkuza,
+                    le lac fournit aujourd'hui 50 % des besoins en eau de la capitale.
+                </importanceculturelle>
+                <anecdote>
+                    Le lac est devenu une destination prisée des habitants de Tirana pour des escapades en pleine nature,
+                    offrant des opportunités de randonnée et de photographie.
+                </anecdote>
+            </histoire>
+            <activites>
+                <activite id="act3" type="sportive">
+                    <nomactivite>Randonnée au Mont Gamti</nomactivite>
+                    <imageactivite title="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/25/de/50/caption.jpg?w=600&amp;h=600&amp;s=1"
+                                   src="../Images/Randonnéegamti.jpg" alt="Mont Gamti"/>
+                    <descriptionactivite>
+                        Une randonnée modérée menant au sommet du Mont Gamti, offrant une vue panoramique sur le lac et les montagnes
+                        environnantes.
+                    </descriptionactivite>
+                    <horaires type="normal" saison="all">
+                        <ouverture type="24h">06:00</ouverture>
+                        <fermeture type="24h">18:00</fermeture>
+                    </horaires>
+                    <prevention id="p2">
+                        - La randonnée au Mont Gamti peut être exigeante. Il est recommandé d'être en bonne condition physique avant de participer.
+                        - Portez des chaussures de randonnée adaptées.
+                        - Emportez de l'eau, surtout lors des journées chaudes.
+                        - La météo peut changer rapidement, il est donc conseillé de vérifier les prévisions avant votre départ.
+                        - En cas de pluie ou de conditions météorologiques extrêmes, il est préférable de reporter la randonnée.
+                    </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+    </lieuxtouristiques>
+</touristique>

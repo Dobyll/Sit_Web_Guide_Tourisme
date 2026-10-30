@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE touristique SYSTEM "site.dtd">
+<touristique>
+    <pays>
+        <nompays> Brésil </nompays>
+        <imagepays title="https://www.deviantart.com/samuelhavel/art/Flag-of-Brazil-426215016" src="../Images/drapeau-bresil.jpg" alt="Drapeau du Brésil"/>
+        <capitale> Brasilia </capitale>
+        <langueofficielle> Portugais</langueofficielle>
+        <devise> BRA</devise>
+        <continent>Amérique</continent>
+    </pays>
+    <informationgeneral>
+        <descriptiongeographique>
+            Le Brésil est un pays situé en Amérique du Sud. Avec une superficie totale de 8 547 404 km², dont 55 455 km² d'eau, il est le cinquième pays le plus grand du monde et le troisième d'Amérique. Le Brésil occupe environ la moitié de la superficie de l'Amérique du Sud.
+            Le Brésil partage ses frontières avec dix pays : l'Uruguay, l'Argentine, le Paraguay, la Bolivie, le Pérou, la Colombie, le Venezuela, le Guyana, le Suriname, et la Guyane (France).
+
+            En raison de sa position géographique et de sa vaste superficie, le Brésil présente une grande diversité climatique :
+
+            Tropical : Présent dans une grande partie du pays, avec des températures élevées et des précipitations abondantes.
+            Équatorial : Principalement dans la région amazonienne, avec des pluies fréquentes tout au long de l'année.
+            Semi-aride : Dans le nord-est du pays, caractérisé par de faibles précipitations irrégulières.
+            Tempéré : Dans les régions du sud, avec des hivers frais et des étés chauds.
+            Subtropical : Présent dans certaines parties du sud, avec des températures modérées et des précipitations régulières.
+            Cette diversité climatique contribue à faire du Brésil une destination attrayante, offrant une variété d'expériences aux visiteurs.
+
+            Le Brésil est également connu pour sa biodiversité exceptionnelle, notamment dans la forêt amazonienne, qui abrite une multitude d'espèces végétales et animales.
+        </descriptiongeographique>
+        <culture>
+            <demographie id ="demographie">
+                Le Brésil est un pays multiculturel, avec une population diversifiée issue de diverses origines ethniques, notamment européennes, africaines, indigènes et même Moyen-orientaux.
+                Parmi les différents groupes ethniques, on y trouve ainsi :
+
+                Européens (environ 47%) :
+                – Portugais : Influence majeure sur la culture et la langue.
+                - Italiens : Principalement dans le sud et le sud-est.
+                - Espagnols : Présents dans les régions frontalières.
+                - Allemands : Principalement dans les États du sud.
+                - Métis (Pardos) (approximativement 43%) : Personnes d'origine ethnique mixte, souvent un mélange d'Européens, d'Africains et d'indigènes.
+                - Africains (Afro-Brésiliens) (approximativement 8%) : Descendants des esclaves africains, avec une influence significative sur la culture.
+                - Indigènes (approximativement 0,4%) : Peuples autochtones, principalement dans les régions amazoniennes et du nord-est.
+
+                Asiatiques (environ 1,1%) :
+                - Japonais : La plus grande population de Japonais en dehors du Japon.
+                - Chinois et Coréens : Communautés moins nombreuses, mais présentes.
+                - Arabes (approximativement 0,5%) : Principalement Libanais et Syriens, dans les grandes villes.
+
+                Ces groupes ethniques contribuent à la riche diversité culturelle du Brésil, influençant la langue, la cuisine, la musique, et les traditions du pays. Le mélange de ces cultures a façonné l'identité unique du Brésil.
+            </demographie>
+            <religion id="religions">
+                Bien qu'au Brésil le catholicisme soit la religion majoritaire, le pays abrite également de nombreuses autres croyances, telles que :
+                - le protestantisme
+                – le spiritisme,
+                -les religions afro-brésiliennes comme le candomblé et l'umbanda.
+                Ces pratiques spirituelles jouent un rôle important dans la vie quotidienne et les célébrations culturelles.
+            </religion>
+            <evenements id ="evenements">
+                Connu pour ses fêtes vibrantes et colorées, le Carnaval de Rio est l'événement le plus emblématique, attirant des millions de visiteurs chaque année.
+                D'autres fêtes importantes incluent la Festa Junina en juin et la Fête de Yemanjá le 2 février, qui honore la déesse de la mer dans le candomblé.
+            </evenements>
+            <cuisine id="cuisine">
+                En raison de sa diversité ethnique, la cuisine brésilienne est riche et variée, reflétant les influences indigènes, africaines et européennes. Les ingrédients locaux, tels que le manioc et les fruits tropicaux, jouent un rôle central dans de nombreux plats.
+                Nous y trouvons ainsi comme plats emblématiques :
+                - Feijoada : Un ragoût copieux à base de haricots noirs, de viande de porc et de bœuf, souvent accompagné de riz, de farofa, d'oranges et de chou vert.
+                - Churrasco : Une méthode de barbecue où diverses viandes sont grillées sur des brochettes, souvent servie dans des churrascarias.
+                - Moqueca : Un ragoût de poisson ou de fruits de mer cuit dans une sauce à base de lait de coco, de tomates, d'oignons, de poivrons et d'huile de palme.
+                - Acarajé : Une spécialité de Bahia, des boulettes de haricots frites, farcies de vatapá et de caruru.
+                - Pão de Queijo : Petits pains au fromage, faits avec de la farine de manioc, du fromage et des œufs, souvent servis au petit-déjeuner.
+                - Brigadeiro : Une truffe au chocolat faite de lait concentré sucré, de cacao en poudre et de beurre, roulée dans des vermicelles de chocolat.
+                - Coxinha : Une croquette en forme de larme, farcie de poulet émincé et de fromage catupiry, puis frite.
+                - Farofa : Un accompagnement à base de farine de manioc grillée, souvent mélangée avec des œufs, de la banane, du bacon ou d'autres ingrédients.
+                - Bobó de Camarão : Un plat de crevettes cuit dans une purée de manioc, de lait de coco, d'huile de palme et d'épices.
+                - Empada : Une tarte salée, souvent farcie de poulet, de palourdes ou de légumes, similaire à une quiche.
+            </cuisine>
+            <arts id="arts">
+                Le Brésil possède une scène artistique florissante, avec des contributions significatives dans la musique, la danse, et les arts visuels.
+                La samba et la bossa nova sont des genres musicaux mondialement reconnus. La capoeira, une forme d'art martial et de danse, est également une expression unique de la culture brésilienne.
+            </arts>
+        </culture>
+        <tourisme>
+            Avec une offre touristique aussi riche et diversifiée, le Brésil continue d'attirer des millions de visiteurs chaque année, contribuant ainsi de manière significative à son économie et à la promotion de sa culture unique sur la scène mondiale.
+            Le Brésil est une destination touristique de premier plan. En 2024, le pays a accueilli 6 657 377 touristes étrangers, établissant un nouveau record depuis le début des statistiques en 1995. Cela représente une augmentation de 12% par rapport à 2023.
+        </tourisme>
+    </informationgeneral>
+    <lieuxtouristiques>
+        <lieutouristique risque="faible" id ="lieu1">
+            <nom>Chutes d'Iguaçu </nom>
+            <imagelieu title="https://www.enchantingtravels.com/travel-blog/iguazu-falls-which-side-should-you-see/#" src="../Images/chutes-izuagu.jpg" alt="image des Chutes Iguaçu"/>
+            <localisation>
+                <ville>Foz do Iguaçu</ville>
+                <region>État du Paraná, Sud du Brésil</region>
+                <adresse>Parque Nacional do Iguaçu, BR-469, km 18, Foz do Iguaçu - PR, 85855-750, Brésil</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important" >
+                        Situées à la frontière entre le Brésil et l'Argentine, ces chutes impressionnantes comptent parmi les plus belles du monde.
+
+                        Ells ont été découvertes par les Européens en 1542 par l’explorateur espagnol Álvar Núñez Cabeza de Vaca, qui fut le premier à les documenter alors qu'il explorait la région du Paraná et du Paraguay.
+                        À partir du XIXe siècle, avec l’exploration croissante du Brésil et de l’Argentine, les chutes d’Iguaçu commencèrent à attirer des visiteurs et furent progressivement aménagées pour le tourisme. En 1939, le Brésil créa le Parc National d'Iguaçu pour protéger cet écosystème unique, suivi par l'Argentine en 1934 avec le Parque Nacional Iguazú.
+                        En 1986, l'UNESCO inscrivit les chutes d'Iguaçu au patrimoine mondial, reconnaissant ainsi leur importance naturelle et culturelle.
+
+                        Cependant, bien avant cette découverte, les chutes étaient déjà connues et vénérées par les peuples autochtones Guaranis, qui y vivaient depuis des siècles.
+                        Pour les peuples autochtones Guaranis, les chutes sont un lieu sacré et un symbole de la puissance de la nature.
+                        Elles sont encore aujourd’hui vénérées par certaines communautés indigènes locales.
+                </importanceculturelle>
+                <anecdote >
+                    Selon une légende Guarani, les chutes seraient nées de la colère du dieu Mboi, un serpent géant qui régnait sur la rivière Iguaçu.
+                    Un jour, une belle femme nommée Naipí tomba amoureuse d'un guerrier, Tarobá. Ils tentèrent de fuir sur un canoë, mais Mboi, furieux, fendit la rivière en deux, créant ainsi les gigantesques chutes et condamnant les amants à être séparés pour l’éternité.
+                </anecdote>
+            </histoire>
+            <activites>
+                <activite id="act1" type="ludique">
+                    <nomactivite>Vol en hélicoptère au-dessus des chutes</nomactivite>
+                    <imageactivite title ="" src="" alt=""/>
+                    <descriptionactivite>
+                        Cette expérience offre une vue panoramique imprenable sur les chutes d'Iguaçu depuis les airs.
+                        Elle survole les principales cascades, y compris la célèbre Gorge du Diable. Les passagers peuvent admirer l'étendue des chutes et la luxuriance de la forêt environnante.
+
+                        Il est recommandé d'arriver au point de départ 20 minutes avant l'heure souhaitée.
+
+                        source: Viator
+                    </descriptionactivite>
+                    <horaires type= "normal" saison = "all">
+                        <ouverture type="AM">9h00</ouverture>
+                        <fermeture type="PM">17h00</fermeture>
+                    </horaires>
+                    <duree>10 minute</duree>
+                    <prix> 210,82€ </prix>
+                    <prevention id="act1_p1">Réserve en ligne ou directement sur place tôt le matin.</prevention>
+                    <prevention id="act1_p2">Évite les objets qui peuvent s’envoler.</prevention>
+                    <prevention id="act1_p3">Vérifie la météo avant de réserver</prevention>
+                </activite>
+                <activite id="act2" type="ludique">
+                    <nomactivite>Safari Macuco – Tour en bateau sous les chutes</nomactivite>
+                    <imageactivite title="https://www.tripadvisor.fr/AttractionProductReview-g303444-d17429792-Brazilian_Side_of_the_Falls_and_Boat_Tour_Macuco_Safari_All_Tickets_Included-Foz_d.html#/media/17429792/?albumid=-150&amp;type=ALL_INCLUDING_RESTRICTED&amp;category=-150" src="../Images/safari-macuco.jpg" alt="Image a bord de Macuco Safari"/>
+                    <descriptionactivite >
+                        Safari Macuco est une aventure en trois étapes :
+
+                        D'abord, Une traversée de la forêt tropicale subtropicale à bord de charrettes électriques ouvertes, offrant l'opportunité d'observer la faune exotique locale.
+                        Ensuite, Une marche de 1 500 mètres et 284 marches le long d'un sentier de difficulté moyenne, permettant de découvrir plus de 250 cascades s'étendant sur 2,7 kilomètres.
+                        Enfin, Embarquement à bord d'un bateau gonflable qui vous emmènera jusqu'aux chutes pour une expérience exaltante de proximité.
+
+                        Source : GetYourGuide
+                    </descriptionactivite>
+                    <horaires type="normal" saison ="all">
+                        <ouverture type="AM">9h00 </ouverture>
+                        <fermeture type="PM">17h20. </fermeture>
+                    </horaires>
+                    <duree> 2 à 4 heures</duree>
+                    <prix >110€</prix>
+                    <prevention id="act2_p1">Équipement obligatoire : port de gilet de sauvetage</prevention>
+                    <prevention id="act2_p2">Respect des instructions de l’équipage </prevention>
+                    <prevention id="act2_p3"> Déconseillé aux personnes avec des problèmes cardiaques ou de dos, aux femmes enceintes et aux personnes souffrant de vertiges.</prevention>
+                    <prevention id="act2_p4"> Porter des affaires et vêtements adaptés </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+        <lieutouristique id="ChristRédempteur" risque ="faible">
+            <nom>Christ Rédempteur</nom>
+            <imagelieu title="https://www.geo.fr/voyage/rio-de-janeiro-la-statue-du-christ-redempteur-au-sommet-du-corcovado-fete-ses-90-ans-206670" src="../Images/christ-rédempteur.jpg" alt="image du monument Christ Rédempteur"/>
+            <localisation>
+                <ville>Rio de Janeiro</ville>
+                <region>Rio de Janeiro</region>
+                <adresse>Mont du Corcovado</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                Statue emblématique classée parmi les Sept nouvelles merveilles du monde, elle est l'un des symboles les
+                plus iconiques du Brésil et du monde.
+                Il a été construit entre 1922 et 1931, conçu pour célébrer les centenaire de l'indépendance du Brésile.
+                Symbolisant ainsi la paix et l'acceuil chaleureux du peuple brésilien.
+
+                Cette statue mesure 38 mètre de haut, dont un piédestal de 8 mètres, et pèse 1 145 tonnes.
+                Offrant ainsi une vue panoramique exceptionnelle sur Rio (Pain de Sucre, plages de Copacabana et Ipanema).
+                </importanceculturelle>
+                <anecdote>
+                    Lors de son inauguration en 1931, il était prévu d’allumer la statue depuis Rome via un signal électrique.
+                    Cependant, en raison de problèmes techniques, les lumières ont finalement été activées depuis Rio.
+
+                    Chaque année, la statue est touchée par environ 3 à 5 éclairs, mais elle reste protégée grâce à un système de paratonnerres.
+                </anecdote>
+            </histoire>
+            <activites>
+                <activite id="act2_2" type="culturelle">
+                    <nomactivite>Montée au Christ Rédempteur</nomactivite>
+                    <imageactivite title="https://www.viator.com/fr-FR/tours/Rio-de-Janeiro/Corcovado-Mountain-Christ-Redeemer-and-Sugar-Loaf-Mountain-Day-Tour/d712-2484_14" src="montée-au-christ-rédempteur.jpg" alt="Image du train vers la Christ Rédempteur "/>
+                    <descriptionactivite>
+                        Montez au sommet du Corcovado en train ou en van pour admirer la vue panoramique de Rio de Janeiro et
+                        découvrir l’une des statues les plus célèbres au monde.
+                    </descriptionactivite>
+                    <horaires type="normal" saison ="all">
+                        <ouverture type="AM"> 8h00 </ouverture>
+                        <fermeture type="PM"> 19h00 </fermeture>
+                    </horaires>
+                    <duree>2 à 3 heures</duree>
+                    <prix>Train du Corcovado : 97 à 125 BRL </prix>
+                    <prix>Navettes officielles : 50 à 75 BRL. </prix>
+                    <prevention id="act2_2_p1">Réservez vos billets en ligne à l'avance pour éviter la foule.</prevention>
+                    <prevention id="act2_2_p2">Privilégiez une visite tôt le matin ou en fin d’après-midi pour éviter la forte affluence et bénéficier d'une belle lumière pour les photos. </prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+    </lieuxtouristiques>
+</touristique>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE touristique SYSTEM "site.dtd">
+<touristique>
+    <pays>
+        <nompays> Vietnam </nompays>
+        <imagepays title="" src="../../Images/drapeau-vietnam.jpg" alt="drapeau du vietnam"/>
+        <capitale>Hanoï</capitale>
+        <langueofficielle>Vietnamien</langueofficielle>
+        <devise>VND (đồng)</devise>
+        <continent>Asie</continent>
+    </pays>
+    <informationgeneral>
+        <descriptiongeographique>
+            Le Vietnam est un pays d'Asie du Sud-Est, bordé par la Chine au nord, le Laos et le Cambodge à l'ouest, et la mer de Chine méridionale au sud et à l'est.
+            Sa géographie varie énormément, avec des montagnes, des plaines, des rivières et une longue côte.
+            Le pays est divisé en trois grandes régions : le Nord, avec le delta du fleuve Rouge et des montagnes comme celles autour de la baie d'Ha Long ; le Centre, montagneux avec la chaîne Annamitique, et des côtes comme celles de Hué ; et le Sud, dominé par le delta du Mékong, une région fertile et tropicale.
+
+            Les rivières principales sont le fleuve Rouge au nord et le Mékong au sud, qui sont essentiels pour l’agriculture et le transport.
+            Le Vietnam possède aussi plus de 3 000 km de côtes, avec des îles comme Phú Quốc et Cát Bà. Le climat est tropical dans le sud et subtropical au nord, avec une saison des pluies de mai à octobre et une saison sèche de novembre à avril.
+
+            Les montagnes sont une caractéristique importante du pays, notamment le Phan Xi Păng, le point culminant à 3 143 mètres.
+            Le Vietnam est riche en biodiversité, avec des forêts tropicales et une faune variée.
+        </descriptiongeographique>
+        <culture>
+            <demographie id="démographie">
+                Le Vietnam est un pays très peuplé, comptant plus de 98 millions d'habitants en 2024.
+                Il fait partie des pays les plus densément peuplés d'Asie du Sud-Est, avec une population jeune et en croissance modérée.
+                Cette densité de population se concentre principalement dans les grandes villes comme Hanoi au nord et Ho Chi Minh-Ville au sud, ainsi que dans les régions fertiles comme le delta du Mékong et celui du fleuve Rouge.
+
+                Le Vietnam est aussi un pays riche en diversité ethnique. Bien que les Vietnamiens Kinh (ou Viet) représentent environ 85-90% de la population, le pays abrite plus de 54 groupes ethniques différents.
+                Ces groupes, comme les Tay, H'mong, Khmer et Cham, vivent principalement dans les régions montagneuses et rurales, et chacun conserve ses propres langues, coutumes et traditions.
+                Cette diversité culturelle enrichit le pays, créant une société dynamique où coexistent différentes langues, croyances et pratiques traditionnelles.
+            </demographie>
+            <religion id="religions">
+                Au Vietnam, la pratique religieuse est diversifiée, avec plusieurs croyances coexistantes parmi la population. Voici la répartition des principales religions :
+
+                -Bouddhisme : 70-80 % de la population, largement pratiqué, souvent en combinaison avec des croyances traditionnelles vietnamiennes comme le culte des ancêtres.
+                -Christianisme : 7-10 %, principalement catholique, avec une petite proportion de protestants.
+                -Cao Dai : Environ 1-2 %, une religion syncrétique fondée au Vietnam au XXe siècle.
+                -Hòa Hảo : Environ 1-2 %, une autre religion indigène vietnamienne.
+               - Autres religions et sans affiliation religieuse : 10-20 %, comprenant des pratiques spirituelles traditionnelles sans religion spécifique.
+            </religion>
+            <evenements id="événements">
+                Le Vietnam célèbre plusieurs événements culturels majeurs qui reflètent son histoire, ses traditions et ses valeurs communautaires. Parmi les plus importants, on trouve :
+
+                -Têt Nguyên Đán (Nouvel An lunaire) : C'est la fête la plus significative du Vietnam, célébrée en janvier ou février. Elle marque le début du printemps et est un moment de retrouvailles familiales, de respect des ancêtres et de festivités.
+                -Fête des Parfums (Lễ hội Chùa Hương) : Ce pèlerinage a lieu au début de l'année lunaire, généralement en février ou mars, et attire des milliers de pèlerins qui se rendent au temple de Chùa Hương pour prier pour la chance et la prospérité.
+               - Fête de la victoire (Ngày Giải Phóng Miền Nam) : Le 30 avril, le Vietnam commémore la fin de la guerre en 1975, avec la victoire du Nord sur le Sud-Vietnam. Des défilés et des cérémonies sont organisés, surtout à Ho Chi Minh-Ville.
+                - Fête de la mi-automne (Tết Trung Thu) : Célébrée le 15e jour du 8e mois lunaire, cette fête est dédiée aux enfants, avec des lanternes colorées, des danses du lion et des repas festifs.
+               - Fête des deux rois Hung (Giỗ Tổ Hùng Vương) : Cette fête rend hommage aux rois Hùng, fondateurs mythiques du Vietnam, et est célébrée le 10e jour du 3e mois lunaire, avec des cérémonies traditionnelles, notamment dans la province de Phú Thọ.
+            </evenements>
+            <cuisine id="cuisine">
+                La cuisine vietnamienne est influencée par des traditions locales et étrangères, notamment chinoises et françaises, et repose sur l'utilisation d'ingrédients frais et de saveurs équilibrées.
+                Les plats vietnamiens sont souvent légers, riches en herbes fraîches et en sauces savoureuses.
+                Nous y retrouvons comme plats national :
+                -Phở : Soupe de nouilles de riz avec du bœuf ou du poulet.
+                -Bánh Mì : Sandwich à base de baguette avec viande, légumes et sauce.
+                -Gỏi Cuốn : Rouleaux de printemps frais, garnis de légumes, vermicelles et viande.
+                -Bún Chả : Côtelettes de porc grillées servies avec vermicelles de riz.
+                -Cà Ri : Curry léger à base de lait de coco, viande et légumes.
+                -Bánh Xèo : Crêpes croustillantes garnies de crevettes, porc et légumes.
+            </cuisine>
+            <arts id="arts">
+                Les arts vietnamiens sont diversifiés et reflètent les traditions culturelles et historiques du pays. Ils incluent la peinture traditionnelle, avec des œuvres sur soie et laquées représentant la vie quotidienne et les paysages.
+                La sculpture, notamment celle des divinités bouddhistes, occupe également une place importante.
+                La musique vietnamienne repose sur des instruments traditionnels comme le đàn bầu et le đàn tranh, tandis que la danse, souvent liée aux festivals, accompagne les performances musicales.
+                Le théâtre de marionnettes sur l'eau (múa rối nước) est une forme artistique emblématique du Vietnam, où des marionnettes en bois se déplacent sur l'eau.
+                Le Cải lương, un opéra traditionnel, mêle théâtre, musique et danse pour raconter des histoires dramatiques. En matière d'artisanat, le Vietnam est renommé pour sa céramique de Bat Trang et ses tissus en soie, utilisés pour créer des vêtements traditionnels comme l'áo dài.
+            </arts>
+        </culture>
+        <tourisme>
+            Le tourisme au Vietnam connaît une forte croissance grâce à ses paysages diversifiés, son patrimoine culturel et ses plages.
+            Les principales attractions incluent la baie d'Ha Long, Hoi An, Hanoi, Ho Chi Minh-Ville, et le delta du Mékong. Le pays est aussi riche en sites historiques comme la citadelle de Huế et les temples des rois Hùng.
+            Le tourisme gastronomique est également populaire, avec des plats typiques comme le phở et le bánh mì.
+            Le Vietnam attire chaque année des millions de visiteurs, et le gouvernement investit dans le développement du secteur touristique pour renforcer son attractivité.
+        </tourisme>
+    </informationgeneral>
+    <lieuxtouristiques>
+        <lieutouristique id="lieu1" risque="faible">
+            <nom> Cité impèrial de Hué</nom>
+            <imagelieu title="https://www.vietnam-roads.fr/voyage/centre-vietnam/hue/" src="../../Images/imperial.jpg" alt="image de Cité impèrial de Hué "/>
+            <localisation>
+                <ville>Hué</ville>
+                <region>Province de Thừa Thiên Hué</region>
+                <adresse> Rue 23/8, Quartier Thuận Hòa </adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                    La Cité impériale de Hué est un symbole majeur de l'identité vietnamienne.
+                    Elle fut la capitale impériale de la dynastie des Nguyễn (1802–1945) et représente un exemple exceptionnel d’architecture orientale inspirée du feng shui.
+                    Elle abrite palais, temples, murailles et tombeaux impériaux, témoins de l’histoire politique, religieuse et artistique du Vietnam. Classée au patrimoine mondial de l’UNESCO, elle incarne la richesse culturelle et la continuité des traditions vietnamiennes.
+                </importanceculturelle>
+                <anecdote>
+                    Lors de la guerre du Vietnam, en 1968, la Cité impériale de Hué fut le théâtre d’une des batailles les plus violentes — l’Offensive du Têt. 
+                    Les combats entre les forces nord-vietnamiennes et les troupes sud-vietnamiennes appuyées par les Américains ont gravement endommagé le site. 
+                    Ironiquement, certains bâtiments anciens ont été mieux conservés que d'autres plus récents car les vieux murs, construits selon des techniques traditionnelles solides, ont mieux résisté aux bombardements que les structures modernes.
+                </anecdote>
+            </histoire>
+            <activites>
+                <activite id="act" type="culturelle">
+                    <nomactivite>Spectacle de Nha Nhac au Théâtre royal Duyệt Thị Đường</nomactivite>
+                    <imageactivite title="https://baotintuc.vn/long-form/emagazine/thang-hoa-nha-nhac-cung-dinh-hue-20230623100736942.htm" src="../../Images/theatre.jpg" alt="image Théâtre royal Duyệt Thị Đường"/>
+                    <descriptionactivite>
+                        Ce genre musical raffiné, inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2003, était autrefois réservé aux cérémonies impériales.
+                        Aujourd'hui, il est présenté au public dans un cadre authentique
+                    </descriptionactivite>
+                    <horaires type ="normal" saison ="all">
+                        <ouverture type="AM"> 10h00 – 10h35</ouverture>
+                        <fermeture type="PM">15h00 – 15h35</fermeture>
+                    </horaires>
+                    <duree> Environ 35 minutes</duree>
+                    <prix> 7,50 €</prix>
+                    <prevention id="act1_p1">Sécurité sur les bateaux : si vous optez pour le spectacle sur l’eau, assurez-vous que le bateau est bien équipé (gilets de sauvetage disponibles)</prevention>
+                    <prevention id="act1_p2">Achat de billets : achetez vos billets dans un point de vente officiel ou par l’hôtel pour éviter les arnaques.</prevention>
+                    <prevention id="act1_p3">Respectez le silence : durant le spectacle, évitez de parler ou utiliser votre téléphone portable</prevention>
+                    <prevention id="act1_p4">Habillez-vous correctement : une tenue décente est recommandée, notamment dans l’enceinte impériale.</prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+        <lieutouristique id="lieu2" risque="faible">
+            <nom> Sapa</nom>
+            <imagelieu title="https://voyageviet-nam.com/sa-pa/" src="../../Images/sapa-vietnam.jpg" alt="image Sapa"/>
+            <localisation>
+                <ville> nord-ouest de Hanoï</ville>
+                <region>Province de Lào Cai</region>
+                <adresse>Ville de Sapa, District de Sapa, Province de Lào Cai, Vietnam</adresse>
+            </localisation>
+            <histoire>
+                <importanceculturelle niveau="important">
+                    Sapa, située dans le nord-ouest du Vietnam, est une région montagneuse peuplée par diverses minorités ethniques comme les Hmong et les Dao.
+                    Ces communautés ont su préserver des traditions ancestrales uniques, visibles à travers leur artisanat et leurs festivals. Sapa est également célèbre pour ses magnifiques rizières en terrasses, inscrites au patrimoine mondial de l'UNESCO.
+                </importanceculturelle>
+                <anecdote>
+                    Selon une légende locale, les brumes qui enveloppent fréquemment la vallée de Sapa proviennent des larmes d'une princesse des montagnes, condamnée à pleurer éternellement la perte de son amour interdit.
+                </anecdote>
+            </histoire>
+            <activites>
+                <activite  id="act2_2" type="ludique">
+                    <nomactivite>Ascension du mont Fansipan</nomactivite>
+                    <imageactivite title="https://www.destination-asie.com/vietnam/montagnes-et-parcs-naturels/le-mont-fansipan-toit-de-lindochine/" src="../../Images/mont-fansipan.jpg" alt="image mont Fansipan"/>
+                    <descriptionactivite>
+                        Trajet en téléphérique jusqu'au plus haut sommet du Vietnam (3147 m),
+                        offrant des panoramas spectaculaires sur les montagnes et vallées de Sapa.
+                    </descriptionactivite>
+                    <horaires type="normal" saison="all">
+                        <ouverture type="AM"> 07h30</ouverture>
+                        <fermeture type="PM">17h30</fermeture>
+                    </horaires>
+                    <duree>15–20 minutes</duree>
+                    <prix>Adultes vietnamiens : ≈ 750 000 VND (~27 €)</prix>
+                    <prix> Adultes étrangers : ≈ 800 000 VND (~29 €)</prix>
+                    <prix>Enfants (1m-1m4) : ≈ 550 000 VND (~20 €)</prix>
+                    <prix>Gratuit : Enfants moins d'un 1 m</prix>
+                    <prevention id="act2_2_p1">Vérifiez les conditions météorologiques avant de partir.</prevention>
+                    <prevention id="act2_2_p2">Apportez des vêtements adaptés à la montagne et une bonne paire de chaussures.</prevention>
+                    <prevention id="act2_2_p3">Préparez-vous à des températures froides en altitude.</prevention>
+                </activite>
+            </activites>
+        </lieutouristique>
+    </lieuxtouristiques>
+</touristique>

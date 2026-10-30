@@ -1,0 +1,164 @@
+/*fait par Nadia Mouacha Ben Sekkou*/
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h4 , h5{
+    color :  #2c3e50;
+}
+h1 {
+    margin-bottom: 30px;
+}
+
+h4 {
+    border: 2px solid #2c3e50;
+    padding: 15px 20px;
+    margin: 15px 0;
+    font-size: 1.4em;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 8px;
+}
+
+h5 {
+    text-decoration: underline;
+}
+.image img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.pays table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.pays td {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.pays img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.pays img:hover {
+    transform: scale(1.1);
+    border-color: #2ecc71;
+}
+ /* style pour les liens*/
+#liens {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#liens li {
+    margin: 10px 0;
+}
+
+#liens a {
+    font-size: 17px;
+    color: #2c3e50; /* gris bleuté élégant */
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#liens a:hover {
+    color: #ffffff;
+    background-color: #3498db; /* bleu doux au survol */
+}
+/* le style pour bouton random */
+.random-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.random-link a {
+    display: inline-block;
+    background-color: #4CAF50; /* vert agréable */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.random-link a:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+/* === STYLES SPECIFIQUES POUR LA PAGE D'ACCUEIL === */
+/* Style pour l'heure et la date */
+#datetime {
+    font: 1rem 'Arial', sans-serif;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation au survol */
+#datetime:hover {
+    background: #fff;
+    transform: translateY(-3px);
+}
+
+/*style pour les liens*/
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Liens à gauche */
+.links-left, .links-right {
+    flex: 1;
+}
+
+/* Styles des listes */
+#liens {
+    list-style-type: none;
+    padding: 0;
+}
+
+#liens li {
+    margin-bottom: 10px;
+}
+
+a.liens {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a.liens:hover {
+    text-decoration: underline;
+}
+

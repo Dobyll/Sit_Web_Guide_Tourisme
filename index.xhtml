@@ -1,0 +1,81 @@
+<!-- fait par Nadia Mouacha-->
+
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Page d'accueil </title>
+    <link rel="stylesheet" href ="Styles/style-accueil.css" />
+    <script src="Code/Javascript/principal.js"> </script>
+  </head>
+  <body>
+  <div id="datetime"> </div>
+  <h1> Collection des lieux touristiques d'un pays </h1>
+  <div class = "image" >
+    <img id="interactiveImage" title ="https://fr.freepik.com/vecteurs-premium/conception-logo-voyage-avion-jet_1797466.htm"  src ="Images/logo.jpg.png"  alt="logo"/>
+  </div><br/>
+
+  <p>Découvrez chaque pays en cliquant sur son image et explorez ses lieux touristiques uniques !</p><br/>
+  <div class = "pays">
+    <table>
+      <tr>
+        <td>Brésil</td>
+        <td>Albanie</td>
+        <td>Cameroun</td>
+        <td>Vietnam</td>
+      </tr>
+      <tr>
+        <td>
+          <a href ="Content/Collection/Bresil.xhtml">
+            <img src="Images/drapeau-bresil.jpg" alt="Brésile"/>
+          </a>
+        </td>
+        <td>
+          <a href = "Content/Collection/Albanie.xhtml">
+            <img title ="https://www.drapeaux-du-monde.fr/drapeau-albanie.html" src ="Images/Drapeaualbanie.jpg" alt="Albanie"/>
+          </a>
+        </td>
+        <td>
+          <a href = "Content/Collection/Cameroun.xhtml">
+            <img src ="Images/drapeau-cameroun.jpg" alt="Cameroun"/>
+          </a>
+        </td>
+        <td>
+          <a href ="Content/Collection/Vietnam.xhtml">
+             <img title ="https://www.drapeaux-du-monr/drapeau-viet-nam.html" src ="Images/drapeau-vietnam.jpg" alt="Vietnam"/>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div><br/>
+  <div class="random-link">
+    <a id="random-link" href="#">Découvrez une fiche aléatoire</a>
+  </div>
+  <br/>
+
+  <div class="container">
+    <h4>Cliquez sur les liens :</h4>
+
+    <div class="links-container">
+      <div class="links-left">
+        <h5>Les liens de nos formulaires et le portrait :</h5>
+        <ul id="liens">
+          <li><a class="liens" href="Content/Forms/form1.xhtml">Contactez-nous</a></li>
+          <li><a class="liens" href="Content/Forms/form2.xhtml">QUIZ</a></li>
+          <li><a class="liens" href="Content/Miscellaneous/authors.xhtml">Voir le tableau des auteurs</a></li>
+        </ul>
+      </div>
+
+      <div class="links-right">
+        <h5>Autres liens :</h5>
+        <ul id="liens">
+          <li><a class="liens" href="Content/Miscellaneous/autoeval.xhtml">Auto évaluation</a></li>
+          <li><a class="liens" href="Styles/styles.xhtml">Vérification des contraintes de style</a></li>
+          <li><a class="liens" href="Content/Miscellaneous/sources.xhtml">Sources</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>

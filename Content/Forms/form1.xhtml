@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Quiz sur les pays</title>
+    <link rel="stylesheet" media="screen" type="text/css" title="form1" href ="../../Styles/form1.css"/>
+    <script src="../../Code/Javascript/form1.js"> </script>
+</head>
+<body>
+<button id="returnButton">Retour à la page d'accueil</button>
+<h1>Quiz : Connaissez-vous ces pays ?</h1>
+<p>Répondez aux questions ci-dessous sur le Cameroun, le Brésil, le Vietnam et l'Albanie.</p>
+
+<form id="quiz" action ="" method="post">
+
+    <h2>1. Quelle est la langue officielle du Cameroun ?</h2>
+    <label><input type="radio" name="q1" value="swahili" /> Le swahili</label><br />
+    <label><input type="radio" name="q1" value="franglais" /> Le français et l’anglais</label><br />
+    <label><input type="radio" name="q1" value="portugais" /> Le portugais</label><br />
+    <label><input type="radio" name="q1" value="arabe" /> L’arabe</label><br /><br />
+
+    <h2>2. Quelle est la capitale du Cameroun ?</h2>
+    <label><input type="radio" name="q2" value="douala" /> Douala</label><br />
+    <label><input type="radio" name="q2" value="yaounde" /> Yaoundé</label><br />
+    <label><input type="radio" name="q2" value="buea" /> Buea</label><br />
+    <label><input type="radio" name="q2" value="limbe" /> Limbé</label><br /><br />
+
+    <h2>3. Quelle est la principale religion pratiquée au Brésil ?</h2>
+    <label><input type="radio" name="q3" value="islam" /> L’islam</label><br />
+    <label><input type="radio" name="q3" value="bouddhisme" /> Le bouddhisme</label><br />
+    <label><input type="radio" name="q3" value="catholicisme" /> Le catholicisme</label><br />
+    <label><input type="radio" name="q3" value="orthodoxie" /> L’orthodoxie</label><br /><br />
+
+    <h2>4. Quelle est la devise du Brésil ?</h2>
+    <label><input type="radio" name="q4" value="peso" /> Le peso</label><br />
+    <label><input type="radio" name="q4" value="dollar" /> Le dollar brésilien</label><br />
+    <label><input type="radio" name="q4" value="real" /> Le réal</label><br />
+    <label><input type="radio" name="q4" value="cfa" /> Le franc CFA</label><br /><br />
+
+    <h2>5. Quelle spécialité culinaire est typique du Vietnam ?</h2>
+    <label><input type="radio" name="q5" value="fondue" /> La fondue</label><br />
+    <label><input type="radio" name="q5" value="pho" /> Le phở</label><br />
+    <label><input type="radio" name="q5" value="paella" /> La paella</label><br />
+    <label><input type="radio" name="q5" value="couscous" /> Le couscous</label><br /><br />
+
+    <h2>6. Quelle est la capitale du Vietnam ?</h2>
+    <label><input type="radio" name="q6" value="saigon" /> Saïgon</label><br />
+    <label><input type="radio" name="q6" value="hanoi" /> Hanoï</label><br />
+    <label><input type="radio" name="q6" value="danang" /> Da Nang</label><br />
+    <label><input type="radio" name="q6" value="phnom" /> Phnom Penh</label><br /><br />
+
+    <h2>7. Quelle est la langue officielle de l’Albanie ?</h2>
+    <label><input type="radio" name="q7" value="italien" /> L’italien</label><br />
+    <label><input type="radio" name="q7" value="grec" /> Le grec</label><br />
+    <label><input type="radio" name="q7" value="albanais" /> L’albanais</label><br />
+    <label><input type="radio" name="q7" value="serbe" /> Le serbe</label><br /><br />
+
+    <h2>8. Où se trouve le parc national de Butrint ?</h2>
+    <label><input type="radio" name="q8" value="france" /> En France</label><br />
+    <label><input type="radio" name="q8" value="albanie" /> En Albanie</label><br />
+    <label><input type="radio" name="q8" value="turquie" /> En Turquie</label><br />
+    <label><input type="radio" name="q8" value="grece" /> En Grèce</label><br /><br />
+
+    <h2>9. Quelle est la géographie du Cameroun ?</h2>
+    <label><input type="radio" name="q9" value="desert" /> Entièrement désertique</label><br />
+    <label><input type="radio" name="q9" value="montagnes" /> Plateau volcanique, montagnes et forêts tropicales</label><br />
+    <label><input type="radio" name="q9" value="archipel" /> Un archipel</label><br />
+    <label><input type="radio" name="q9" value="glace" /> Majoritairement recouvert de glace</label><br /><br />
+
+    <h2>10. Quelle est une spécialité culinaire brésilienne ?</h2>
+    <label><input type="radio" name="q10" value="bobo" /> Le bobó de camarão</label><br />
+    <label><input type="radio" name="q10" value="ramen" /> Le ramen</label><br />
+    <label><input type="radio" name="q10" value="chakchouka" /> La chakchouka</label><br />
+    <label><input type="radio" name="q10" value="padthai" /> Le pad thaï</label><br /><br />
+
+    <input type="hidden" name="userAgentInformations" id="userAgentInformations" />
+
+
+    <button type="button" id="checkAnswersButton">Vérifier mes réponses</button> <!-- Bouton pour vérifier -->
+    <p id="resultMessage"></p>
+
+    <input type="submit" value="Envoyer mes réponses" />
+</form>
+</body>
+</html>
